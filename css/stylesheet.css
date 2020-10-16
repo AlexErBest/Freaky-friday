@@ -1,0 +1,77 @@
+/* This is a comment in CSS */
+body{
+    background-color: rgba(0,0,0,0.0); /* https://www.w3schools.com/html/html_colors.asp */
+    margin-top: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: Calibri, 'Calibri'; /* https://www.w3schools.com/css/css_font.asp */
+    font-size: 2em; /* Plan: H1 = 2em, H2 = 1.75em, H3 = 1.4em, H4 = 1.2em */
+    font-weight: bold;
+    margin-left: -20px; /* Legger sammen verdi med margin definert i body */
+}
+
+h2{
+    font-family: times, 'times new roman'; /* https://www.w3schools.com/css/css_font.asp */
+    font-size: 1.75em;
+    font-weight: normal;
+    margin-left: -20px;
+
+}
+
+h3{
+    font-family: times, 'times new roman'; /* https://www.w3schools.com/css/css_font.asp */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: -20px
+}
+
+p {
+    font-family: sans-serif; /* https://www.w3schools.com/css/css_font.asp */
+    font-size: 0.9em;
+    margin-left: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+
+}
+
+li {
+    float: left;
+    font-family: sans-serif;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.right {
+    text-align: right;
+}
+
+.mid {
+    text-align: center;
+}
+
+.element-size {
+    width: 100px;
+}
+
+/* endre mer enn 1 type av gangen, skilles med komma*/
+td, th{
+    padding: 5px; /* mellomrom rundt tekst */
+}
+
+div {
+    border: 2px solid black;
+    width: 1920px;
+    height: 200px;
+}
