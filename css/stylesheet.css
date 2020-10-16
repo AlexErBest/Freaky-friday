@@ -3,7 +3,7 @@ body{
     background-color: rgba(0,0,0,0.0); /* https://www.w3schools.com/html/html_colors.asp */
     margin-top: 0;
     margin-right: 40px;
-    margin-left: 40px;
+    margin-left: 0;
     margin-bottom: 40px;
 }
 
@@ -54,11 +54,15 @@ li a {
     width: 500px;
     color: black;
     height: 100px;
+    font-family: Calibri;
+    font-size: xx-large;
+    text-decoration: none;
 }
 
 li a:hover {
     background-color: palevioletred;
     color: white;
+    text-decoration: underline;
 }
 
 a {
@@ -84,8 +88,19 @@ td, th{
 }
 
 div {
-    border: 2px solid black;
+    border: 0;
     width: 1920px;
     height: 200px;
+}
+
+* {
+    box-sizing: content-box;
+}
+/* This code is needed, though I have forgotten why.*/
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
