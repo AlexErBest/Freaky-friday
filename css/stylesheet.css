@@ -104,3 +104,9 @@ div {
     display: table;
 }
 
+#banner {
+    background-image: url("../imgs/grisbanner.jpg");
+    border: 2px solid black;
+
+}
+
